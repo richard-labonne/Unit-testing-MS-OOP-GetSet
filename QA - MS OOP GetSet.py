@@ -69,7 +69,7 @@ class test_Square(unittest.TestCase):
         expected = "Value must be larger than 0"
         self.assertEqual(actual, expected)
 
-    #rectangle 1 - should give Exception("Not Square")
+    #rectangle 1 - height constant should give Exception("Not Square")
     def test_rect_h(self):
         h = 1
         for w in range (2,101):
@@ -79,7 +79,7 @@ class test_Square(unittest.TestCase):
         expected = "Not square"
         self.assertEqual(actual, expected)
         
-    #rectangle 2 - should give Exception("Not Square")
+    #rectangle 2 - width constant should give Exception("Not Square")
     def test_rect_w(self):
         w = 1
         for h in range (2,101):
