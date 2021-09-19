@@ -1,0 +1,13 @@
+My square class I tested it by trying to instantiate a rectangle, and negative h or negative w
+Then the same for the set_sides method
+
+yup
+so imagine doing that in code automatically
+each test is a test case
+and it passes or fails
+
+so you might test negative
+zero
+positive int
+3 different tests
+maybe 6 if you are asserting the height == given width and width == given width
